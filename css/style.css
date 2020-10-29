@@ -1,0 +1,53 @@
+/* Reset geral */
+html {
+  font-family: helvetica, sans-serif;
+  background-color: #ddd;
+}
+
+#container {
+  max-width: 1920px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 50px;
+  margin: 50px;
+  background-color: #fff;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+  text-align: center;
+}
+
+.titulo-principal {
+  font-size: 40px;
+}
+
+/* Corpo do Site */
+.conteudo-corpo h2 {
+  padding-bottom: 10px;
+}
+
+.conteudo-corpo {
+  padding: 25px 0;
+  margin: 20px 0;
+  border-top: 1px dashed #ddd;
+  
+}
+
+/* Span destaque */
+.span-destaque {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Imagens do site */
+.imgs-destaques {
+  text-align: center;
+  margin-top: 10px; 
+}
+
+.imgs-destaques .figure-caption {
+  font-style: italic;
+  color: gray;
+}
